@@ -1,0 +1,17 @@
+{
+    "name": "scweb/foundation",
+    "description": "this package is used for create foundation of Scalable Web",
+    "type": "project",
+    "require": {
+        "php": ">=8.2",
+        "laravel/breeze": "^2.0",
+        "livewire/livewire": "^3.4"
+    },
+    "license": "SeeQuii",
+    "autoload": {
+        "psr-4": {
+            "Scweb\\Foundation\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
